@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import javax.annotation.Resource;
 
 @RunWith(SpringJUnit4ClassRunner.class) // @RunWith: integrate spring with junit
-@SpringBootTest(classes = {SpringBootUnitTestsApplicationTests.class}) // @SpringBootTest: this class is spring boot test.
+@SpringBootTest(classes = {SpringBootUnitTestsApplication.class}) // @SpringBootTest: this class is spring boot test.
 public class UserServiceTest {
     @Resource
     private UserService userService;
